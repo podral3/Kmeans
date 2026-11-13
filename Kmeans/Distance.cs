@@ -1,4 +1,6 @@
-﻿public delegate double Distance(double[] a, double[] b);
+﻿namespace Kmeans;
+
+public delegate double DistanceFunc(double[] a, double[] b);
 
 public static class Distances
 {
