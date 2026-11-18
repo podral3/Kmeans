@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37301.10 d17.14
+VisualStudioVersion = 17.14.37301.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kmeans", "Kmeans\Kmeans.csproj", "{7E93F29B-8FBB-433F-8252-812B51885537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSO", "PSO\PSO.csproj", "{C8B185D7-FB7B-4364-A296-172888EED072}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{7E93F29B-8FBB-433F-8252-812B51885537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E93F29B-8FBB-433F-8252-812B51885537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E93F29B-8FBB-433F-8252-812B51885537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B185D7-FB7B-4364-A296-172888EED072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B185D7-FB7B-4364-A296-172888EED072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B185D7-FB7B-4364-A296-172888EED072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B185D7-FB7B-4364-A296-172888EED072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
